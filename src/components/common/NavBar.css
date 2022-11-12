@@ -1,0 +1,90 @@
+header {
+  color: white;
+  align-items: center;
+  display: flex;
+  background: #000000;
+  height: 64px;
+}
+.logo {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 40px;
+  /* top: 22px; */
+}
+.logo img {
+  /* box-sizing: border-box; */
+
+  /* position: absolute; */
+  width: 50px;
+  height: 50px;
+  /* margin-bottom: 20px; */
+  align-items: center;
+}
+.Navigation_bar {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  width: 88%;
+  margin-left: 100px;
+  /* margin-bottom: 10px; */
+
+  /* border: 2px solid green; */
+}
+.git {
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  /* position: absolute; */
+  margin-right: 10px;
+  align-items: center;
+}
+.git img {
+  height: 30px;
+  width: 30px;
+}
+.name {
+  position: absolute;
+  width: 124px;
+  height: 29px;
+  left: 100px;
+  top: 18px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #e0e0e0;
+}
+.navbar {
+  position: absolute;
+  display: inline-block;
+  right: 140px;
+}
+.navbar li {
+  display: inline-block;
+}
+.aboutText {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  color: #fffdfd;
+}
+.aboutText:hover {
+  padding: 8px 8px;
+  border-radius: 10px;
+  background-color: grey;
+}

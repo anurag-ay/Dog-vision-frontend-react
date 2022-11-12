@@ -1,0 +1,90 @@
+.drop_box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 312px;
+  height: 316px;
+  left: 564px;
+  top: 150px;
+  background: #f7f7ff;
+  border: 2px solid #a2a6fa;
+  border-radius: 10px;
+
+  box-shadow: inset 7px 7px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(7px 7px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button {
+  display: flex;
+}
+.capture {
+  cursor: pointer;
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 493px;
+  top: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #efefef;
+  background: #000000;
+  border-radius: 10px;
+}
+.capture:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+}
+.upload {
+  cursor: pointer;
+  position: absolute;
+  width: 202px;
+  height: 55px;
+  left: 729px;
+  top: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #efefef;
+  background: #000000;
+  border-radius: 10px;
+}
+.upload:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+}
+.find_breed {
+  cursor: pointer;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 265px;
+  height: 50px;
+  left: 588px;
+  top: 600px;
+
+  background: #dde1fa;
+  border: 2px solid #c2c4f8;
+  /* box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25); */
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.find_breed:hover {
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  background-color: grey;
+  border: 2px solid black;
+}
